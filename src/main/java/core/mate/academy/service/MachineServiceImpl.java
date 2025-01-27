@@ -11,10 +11,9 @@ import java.util.List;
  * Your implementation of MachineService.
  */
 public class MachineServiceImpl implements MachineService<Machine> {
-
+    List<? extends Machine> machineProducer;
     @Override
     public List<Machine> getAll(Class<? extends Machine> type) {
-        List<? extends Machine> machineProducer;
         if (type.equals(Excavator.class)) {
             machineProducer = new ExcavatorProducer().get();
         } else if (type.equals(Truck.class)) {

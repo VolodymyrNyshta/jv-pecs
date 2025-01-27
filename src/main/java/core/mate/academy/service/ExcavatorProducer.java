@@ -10,10 +10,6 @@ public class ExcavatorProducer implements MachineProducer<Excavator> {
         Excavator excavator1 = new Excavator();
         Excavator excavator2 = new Excavator();
         Excavator excavator3 = new Excavator();
-        List<Excavator> excavators = new ArrayList<>();
-        excavators.add(excavator1);
-        excavators.add(excavator2);
-        excavators.add(excavator3);
-        return excavators;
+        return List.of(excavator1, excavator2, excavator3);
     }
 }
