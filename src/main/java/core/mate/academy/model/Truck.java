@@ -9,11 +9,11 @@ public class Truck extends Machine {
     private int numberOfAxles;
 
     public Truck() {
+        super(null, null);
     }
 
     public Truck(double loadCapacity, int numberOfAxles, String name, String color) {
-        this.loadCapacity = loadCapacity;
-        this.numberOfAxles = numberOfAxles;
+        super(name, color);
         super.setName(name);
         super.setColor(color);
     }

@@ -7,7 +7,7 @@ The goal of the implementation of this interface is to create a list of specific
 You should have at least 3 implementations: `BulldozerProducer`, `ExcavatorProducer`, `TruckProducer`;
 Please parameterize your `MachineProducer` and replace `Object` in `get()` with the suitable option.
     ```java
-    public interface MachineProducer<PARAMETRIZE_ME>{}
+    public interface MachineProducer<PARAMETRIZE ME>{ ... }
     ```
 1. In `MachineProducer` implementations your method `get()` should return the list of specific machines. 
 For example: 

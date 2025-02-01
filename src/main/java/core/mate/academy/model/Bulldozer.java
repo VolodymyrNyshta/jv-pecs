@@ -9,11 +9,11 @@ public class Bulldozer extends Machine {
     private double bladeCapacity;
 
     public Bulldozer() {
+        super(null, null);
     }
 
     public Bulldozer(double bladeWidth, double bladeCapacity, String name, String color) {
-        super.setName(name);
-        super.setColor(color);
+        super(name, color);
         this.bladeWidth = bladeWidth;
         this.bladeCapacity = bladeCapacity;
     }
