@@ -9,7 +9,7 @@ public class Bulldozer extends Machine {
     private double bladeCapacity;
 
     public Bulldozer() {
-        super(null, null);
+        super();
     }
 
     public Bulldozer(double bladeWidth, double bladeCapacity, String name, String color) {

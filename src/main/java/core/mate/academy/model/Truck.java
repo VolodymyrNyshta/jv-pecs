@@ -9,7 +9,7 @@ public class Truck extends Machine {
     private int numberOfAxles;
 
     public Truck() {
-        super(null, null);
+        super();
     }
 
     public Truck(double loadCapacity, int numberOfAxles, String name, String color) {

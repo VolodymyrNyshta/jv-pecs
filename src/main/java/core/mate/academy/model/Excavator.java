@@ -9,7 +9,7 @@ public class Excavator extends Machine {
     private double maxReach;
 
     public Excavator() {
-        super(null, null);
+        super();
     }
 
     public Excavator(double bucketCapacity, double maxReach, String name, String color) {
